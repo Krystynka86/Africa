@@ -45,3 +45,5 @@ struct VideoPlayerView_Previews: PreviewProvider {
     }
   }
 }
+
+

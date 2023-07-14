@@ -51,6 +51,10 @@ struct AnimalDetailView: View {
         .padding(.horizontal)
         
         // FACTS
+          Group {
+              HeadingView(headingImage: "questionmark.circle", headingText: "Did you know?")
+          } // GROUP
+          .padding(.horizontal)
         
         // DESCRIPTION
         

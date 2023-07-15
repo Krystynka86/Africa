@@ -8,7 +8,7 @@
 import Foundation
 import AVKit
 
-/*var videoPlayer: AVPlayer?
+var videoPlayer: AVPlayer?
 
 func playVideo(fileName: String, fileFormat: String) -> AVPlayer {
     
@@ -18,9 +18,9 @@ func playVideo(fileName: String, fileFormat: String) -> AVPlayer {
     }
     
     return videoPlayer!
-}*/
+}
 
-var videoPlayer = AVPlayer()
+/*var videoPlayer = AVPlayer()
 
 func playVideo(fileName: String, fileFormat: String) -> AVPlayer {
   if Bundle.main.url(forResource: fileName, withExtension: fileFormat) != nil {
@@ -28,4 +28,4 @@ func playVideo(fileName: String, fileFormat: String) -> AVPlayer {
     videoPlayer.play()
   }
   return videoPlayer
-}
+}*/

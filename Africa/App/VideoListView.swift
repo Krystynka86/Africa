@@ -44,10 +44,11 @@ struct VideoListView: View {
 }
 
 // MARK: - PREVIEW
-struct VideoListView_Previews: PreviewProvider {
-    static var previews: some View {
-        VideoListView()
-    }
-}
 
+struct VideoListView_Previews: PreviewProvider {
+  static var previews: some View {
+    VideoListView()
+      .previewDevice("iPhone 12 Pro")
+  }
+}
 

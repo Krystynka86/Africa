@@ -14,6 +14,7 @@ struct GalleryView: View {
     
     
     let animals: [Animal] = Bundle.main.decode("animals.json")
+    let haptics = UIImpactFeedbackGenerator(style: .medium)
     
     // SIMPLE GRID DEFINITION
     // let gridLayout: [GridItem] = [
@@ -52,8 +53,6 @@ struct GalleryView: View {
                         gridSwitch()
                     })
                 
-                
-                
                 // MARK: - GRID
                 
                 LazyVGrid(columns: gridLayout, alignment: .center, spacing: 10) {
@@ -65,9 +64,11 @@ struct GalleryView: View {
                             .overlay(Circle().stroke(Color.white, lineWidth: 1))
                             .onTapGesture {
                                 selectedAnimal = item.image
+                                haptics.impactOccurred()
                             }
                     } //: LOOP
                 } //: GRID
+                .animation(.easeIn)
                 .onAppear (perform: {
                     gridSwitch()
                 })

@@ -50,6 +50,7 @@
 		6B9AC9CE2A653AF6002197CA /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9AC9CD2A653AF6002197CA /* AnimalGridItemView.swift */; };
 		6BDB29CB2A655B4600C0996A /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDB29CA2A655B4600C0996A /* Stickers.xcassets */; };
 		6BDB29CF2A655B4600C0996A /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6BDB29C82A655B4400C0996A /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6BDB29D52A656AA500C0996A /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB29D42A656AA500C0996A /* CreditsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		6BDB29C82A655B4400C0996A /* Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDB29CA2A655B4600C0996A /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		6BDB29CC2A655B4600C0996A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDB29D42A656AA500C0996A /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +246,7 @@
 				6B9AC9C92A6334C4002197CA /* MapAnnotationView.swift */,
 				6B9AC9CB2A646056002197CA /* MotionAnimationView.swift */,
 				6B9AC9CD2A653AF6002197CA /* AnimalGridItemView.swift */,
+				6BDB29D42A656AA500C0996A /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				6B9AC9CE2A653AF6002197CA /* AnimalGridItemView.swift in Sources */,
 				6B9127F12A6091520016953C /* InsetGalleryView.swift in Sources */,
 				6B435BC82A61BA4500F830CB /* VideoListItemView.swift in Sources */,
+				6BDB29D52A656AA500C0996A /* CreditsView.swift in Sources */,
 				6B9127E72A605D760016953C /* CodableBundleExtension.swift in Sources */,
 				6B9AC9CC2A646056002197CA /* MotionAnimationView.swift in Sources */,
 				6B9127EF2A608E470016953C /* HeadingView.swift in Sources */,

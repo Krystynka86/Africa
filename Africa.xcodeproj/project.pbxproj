@@ -51,6 +51,7 @@
 		6BDB29CB2A655B4600C0996A /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDB29CA2A655B4600C0996A /* Stickers.xcassets */; };
 		6BDB29CF2A655B4600C0996A /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6BDB29C82A655B4400C0996A /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6BDB29D52A656AA500C0996A /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB29D42A656AA500C0996A /* CreditsView.swift */; };
+		6BDB29D82A65768800C0996A /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB29D72A65768800C0996A /* CenterModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,7 @@
 		6BDB29CA2A655B4600C0996A /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		6BDB29CC2A655B4600C0996A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BDB29D42A656AA500C0996A /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		6BDB29D72A65768800C0996A /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 		6B9127B22A6043DD0016953C /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				6BDB29D62A65765800C0996A /* Modifier */,
 				6B6102CB2A61CA6600B3126E /* Helper */,
 				6B9127E52A605D400016953C /* Extension */,
 				6B9127E22A605B0E0016953C /* Model */,
@@ -277,6 +280,14 @@
 				6BDB29CC2A655B4600C0996A /* Info.plist */,
 			);
 			path = Stickers;
+			sourceTree = "<group>";
+		};
+		6BDB29D62A65765800C0996A /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				6BDB29D72A65768800C0996A /* CenterModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +427,7 @@
 				6BDB29D52A656AA500C0996A /* CreditsView.swift in Sources */,
 				6B9127E72A605D760016953C /* CodableBundleExtension.swift in Sources */,
 				6B9AC9CC2A646056002197CA /* MotionAnimationView.swift in Sources */,
+				6BDB29D82A65768800C0996A /* CenterModifier.swift in Sources */,
 				6B9127EF2A608E470016953C /* HeadingView.swift in Sources */,
 				6B6102CA2A61C7AA00B3126E /* VideoPlayerView.swift in Sources */,
 			);
